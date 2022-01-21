@@ -1,0 +1,70 @@
+main {
+  padding-top: 2rem;
+}
+
+.background {
+  background: url('../../images/bg-image.jpg') center/cover no-repeat fixed;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
+  filter: grayscale(50%);
+}
+.plan {
+  width: 70%;
+  border: 1px solid #83a4dddd;
+  border-radius: 5px;
+  padding: 2rem;
+  margin: 2rem 1rem;
+  border-left: none;
+  z-index: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.plan a {
+  text-decoration: none;
+  text-align: right;
+  padding: 2rem;
+}
+
+.plan__info {
+  padding: 0.8rem;
+  background: #fff;
+  border: 1px solid #8baee9dd;
+  border-radius: 5px;
+}
+.plan__badge {
+  position: absolute;
+  right: 0;
+  top: 0px;
+  font-size: 0.9rem;
+  background: #1e88e5;
+  padding: 0.1rem 0.5rem;
+  color: #fff;
+  transform: rotateZ(45deg) translateX(3.5rem) translateY(-2rem);
+  width: 12rem;
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+#plus {
+  background: #b5c9eedd;
+}
+
+#free {
+  background: #c8d5ebdd;
+  float: right;
+  border: 1px solid #83a4dddd;
+}
+
+#priemium {
+  background: #6394ebdd;
+}
+
+#priemium .plan__title {
+  color: #fff;
+}
